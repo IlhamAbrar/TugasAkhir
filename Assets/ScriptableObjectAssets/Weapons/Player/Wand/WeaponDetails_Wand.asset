@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a00a35ce5bbe34da0995589e385360, type: 3}
+  m_Name: WeaponDetails_Wand
+  m_EditorClassIdentifier: 
+  weaponName: Wand
+  weaponSprite: {fileID: 21300000, guid: d015dee030217af4694b1fb13ca3460e, type: 3}
+  weaponShootPosition: {x: 0.55, y: 0.03, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 991710dbaf1485041b77f93b87334a8b, type: 2}
+  weaponShootEffect: {fileID: 11400000, guid: 42d4ad57f62958f48a4e6363b7855c22, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 20234b5d4b4d37d40995d950c3ef21a9, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: 8dbef426594648e41bab4dcf1f5bf481, type: 2}
+  hasInfiniteAmmo: 0
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 20
+  weaponAmmoCapacity: 300
+  weaponFireRate: 0.25
+  weaponPrechargeTime: 0
+  weaponReloadTime: 2
